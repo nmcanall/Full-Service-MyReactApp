@@ -1,4 +1,73 @@
-html, body {
+/* ----- Page setup ----- */
+
+.app {
   margin: 0;
   padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* ----- Header ----- */
+
+.my-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 5px gray;
+}
+
+.logo {
+  width: 10%;
+  padding: 2%;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding-inline: 3%;
+}
+
+.nav-items > li {
+  padding-inline: 8%;
+}
+
+/* ----- Body ----- */
+
+.body {
+  margin: 2%;
+}
+
+.body > h1 {
+  text-align: center;
+}
+
+.who-we-are {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding-inline: 5%;
+  font-style: italic;
+  font-size: large;
+  color: darkred
+}
+
+.who-we-are > li {
+  padding: 1% 5%;
+}
+
+.what-we-do {
+  text-align: justify;
+}
+
+/* ----- Footer ----- */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 1%;
+  font-size: small;
+  color: beige;
+  background-color: darkslategray;
 }
