@@ -1,10 +1,11 @@
-import React from "react"
+import React from "react";
+import reactLogo from "../images/logo192.png";
 
 function Header() {
     return (
       <header>
         <nav className='my-nav-bar'>
-          <img src={require("./logo192.png")} className='logo' alt="default React logo"/>
+          <img src={reactLogo} className='logo' alt="default React logo"/>
           <ul className='nav-items'>
             <li>Offers</li>
             <li>About</li>
