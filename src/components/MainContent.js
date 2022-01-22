@@ -12,12 +12,12 @@ function MainContent() {
 
 function MyList() {
   return (
-    <ol className='who-we-are'>
+    <ul className='who-we-are'>
       <li>Best in value</li>
       <li>Huge selection</li>
       <li>Small, local business</li>
       <li>Exceptional customer service</li>
-    </ol>
+    </ul>
   )
 }
 
